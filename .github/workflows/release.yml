@@ -18,7 +18,7 @@ jobs:
       - name: Publish Binaries
         uses: SierraSoftworks/gh-releases@v1.0.7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           overwrite: 'true'
           files: |
             ${{ github.workspace }}/bin/bootstrap_hash
