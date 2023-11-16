@@ -4,7 +4,7 @@ set -e
 
 TMP_DIR=""
 REPO_NAME="ecm-distro-tools"
-REPO_URL="https://github.com/rancher/${REPO_NAME}"
+REPO_URL="https://github.com/johnatasr/${REPO_NAME}"
 REPO_RELEASE_URL="${REPO_URL}/releases"
 INSTALL_DIR="/usr/local/bin/ecm-distro-tools"
 SUFFIX=""

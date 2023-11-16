@@ -108,6 +108,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: rancher/ecm-distro-tools:${{ github.ref_name }}
+          tags: johnatasr/ecm-distro-tools:${{ github.ref_name }}
           file: ./Dockerfile
           context: .
